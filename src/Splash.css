@@ -1,7 +1,23 @@
-.greeting-text{
+.startup-container{
+    top: 0;
+    position: absolute;
     color: #000;
     font-weight: 300;
-    font-size: 3.75rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.greeting-text{
+    margin-left: -25%;
+}
+
+.greeting-text, .short-desc-text{
+    color: #000;
+    font-weight: 300;
     opacity: 0;
     animation-name: deplayedAppear;
     animation-duration: 1s;
@@ -18,47 +34,15 @@
     }
   }
 
-.greeting-container{
-    position: fixed;
-    top: 43%;
-    left: 37%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
 
-.short-desc-container{
-    position: fixed;
-    top: 60%;
-    left: 53%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    color: #000;    
-    font-weight: 300;
-    font-size: 3rem;
-    animation-name: deplayedAppear;
-    animation-duration: 1s;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-}
-
-.loading-container{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-  .loading-text {
+.loading-text {
     position: relative;
-    font-size: 3.75rem;
     font-weight: 300;
     margin: 0;
     white-space: nowrap;    
   }
   
-  .loading-text .letter {
+.loading-text .letter {
     display: inline-block;
     position: relative;
     color: #000;
@@ -67,7 +51,6 @@
     animation-duration: .01s;
     animation-fill-mode: both;
  }
-
 
  .loading-text > *:nth-of-type(1) {
     animation-delay: 1s

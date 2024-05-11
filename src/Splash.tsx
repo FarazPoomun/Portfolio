@@ -4,11 +4,10 @@ import './Splash.css'
 function Splash(){
     return (
       <>
-        <div className="greeting-container">
-          <div className="greeting-text">Hi, I'm</div>
-        </div>
+      <div className='startup-container'>
+          <div className="greeting-text text">Hi, I'm</div>
         <div className="loading-container">
-          <p className="loading-text" aria-label="Loading">
+          <p className="loading-text text" aria-label="Loading">
             <span className="letter" aria-hidden="true">
               F
             </span>
@@ -27,8 +26,7 @@ function Splash(){
             <span className="blink">|</span>
           </p>
         </div>
-        <div className="short-desc-container">
-          <div className="short-desc-text">An enthusiastic Full-Stack Developer</div>
+          <div className="short-desc-text subtext">An enthusiastic Full-Stack Developer</div>
         </div>
       </>
     );
