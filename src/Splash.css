@@ -26,6 +26,22 @@
     transform: translate(-50%, -50%);
 }
 
+.short-desc-container{
+    position: fixed;
+    top: 60%;
+    left: 53%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: #000;    
+    font-weight: 300;
+    font-size: 3rem;
+    animation-name: deplayedAppear;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
 .loading-container{
     position: fixed;
     top: 50%;

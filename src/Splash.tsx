@@ -27,6 +27,9 @@ function Splash(){
             <span className="blink">|</span>
           </p>
         </div>
+        <div className="short-desc-container">
+          <div className="short-desc-text">An enthusiastic Full-Stack Developer</div>
+        </div>
       </>
     );
 };
