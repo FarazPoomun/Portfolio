@@ -1,6 +1,5 @@
 import './Splash.css'
 
-
 function Splash(){
     return (
       <>
