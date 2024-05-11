@@ -1,7 +1,6 @@
 .startup-container{
     top: 0;
     position: absolute;
-    color: #000;
     font-weight: 300;
     width: 100%;
     display: flex;
@@ -16,7 +15,6 @@
 }
 
 .greeting-text, .short-desc-text{
-    color: #000;
     font-weight: 300;
     opacity: 0;
     animation-name: deplayedAppear;
@@ -45,7 +43,6 @@
 .loading-text .letter {
     display: inline-block;
     position: relative;
-    color: #000;
     letter-spacing: 8px;
     animation-name: appear;
     animation-duration: .01s;
@@ -93,7 +90,6 @@
     animation-timing-function: linear;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
-    color: #000;
   }
 
   @keyframes flash {
