@@ -1,6 +1,6 @@
 import './App.css'
 import NavigationBar from './NavigationBar';
-import Splash from './Splash';
+import Splash from './Body';
 
 function App() {
   return (

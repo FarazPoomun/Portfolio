@@ -1,16 +1,17 @@
-import './Splash.css'
+import './Body.css'
+import Story from './Story';
 
 function Splash(){
 
   setTimeout(()=>{
-    const startupContainer = document.getElementById("startup-container");
-    startupContainer?.classList.add('startup-container-transitioned');
-  }, 5000);
+    const startupContainer = document.getElementById("body-container");
+    startupContainer?.classList.add('body-container-transitioned');
+  }, 4000);
 
     return (
       <>
-      <div className='startup-container' id='startup-container'>
-          <div className="greeting-text text">Hi, I'm</div>
+      <div className='outer-body-container'>
+      <div className='body-container' id='body-container'>
         <div className="loading-container">
           <p className="loading-text text" aria-label="Loading">
             <span className="letter" aria-hidden="true">
@@ -32,6 +33,8 @@ function Splash(){
           </p>
         </div>
           <div className="short-desc-text subtext">Senior Full-Stack Developer</div>
+        </div>
+        <Story/>
         </div>
       </>
     );

@@ -1,6 +1,12 @@
-.startup-container{
-    top: 5%;
-    position: absolute;
+.outer-body-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 5%;
+  column-gap: 20%;
+}
+
+.body-container{
     font-weight: 300;
     width: 100%;
     display: flex;
@@ -8,30 +14,32 @@
     align-items: center;
     flex-direction: column;
     height: 100%;
-    transition: top 2s, width 2s;
+    transition: margin 2s, width 2s;
+    margin-top: 15%;
 }
 
-.startup-container-transitioned{
-  top: -25% !important;
-  width: 21%;
-}
-
-.greeting-text{
-    margin-left: -15%;
-    margin-top: -5%;
-}
+.body-container-transitioned{
+  margin-top: 0;
+  width: 20%;
+  margin-left: 2%;
+} 
 
 @media only screen and (max-width: 960px) {
   .greeting-text {
     margin-top: -25% !important;
   }
-  .startup-container-transitioned{
-    width: 29% !important;
+  .body-container{
+    margin-top: 100%;
+  }
+  .body-container-transitioned{
+    margin-top: 25%;
+    width: 100% !important;
   }
   .short-desc-text{
     font-size: 1rem !important;
   }
 }
+
 .greeting-text, .short-desc-text{
     font-weight: 300;
     opacity: 0;
@@ -39,6 +47,7 @@
     animation-duration: 1s;
     animation-delay: 3s;
     animation-fill-mode: forwards;
+    text-wrap: nowrap;
 }
 
 @keyframes deplayedAppear {

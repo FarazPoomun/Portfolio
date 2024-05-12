@@ -1,0 +1,13 @@
+.story-container{
+    width: 40%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+@media only screen and (max-width: 960px) {
+.story-container{
+    width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+}
