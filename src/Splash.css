@@ -8,16 +8,28 @@
     align-items: center;
     flex-direction: column;
     height: 100%;
+    transition: top 2s, width 2s;
+}
+
+.startup-container-transitioned{
+  top: -25% !important;
+  width: 21%;
 }
 
 .greeting-text{
-    margin-left: -25%;
+    margin-left: -15%;
     margin-top: -5%;
 }
 
 @media only screen and (max-width: 960px) {
   .greeting-text {
     margin-top: -25% !important;
+  }
+  .startup-container-transitioned{
+    width: 29% !important;
+  }
+  .short-desc-text{
+    font-size: 1rem !important;
   }
 }
 .greeting-text, .short-desc-text{
