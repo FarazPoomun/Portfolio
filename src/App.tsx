@@ -3,7 +3,6 @@ import NavigationBar from './NavigationBar';
 import Splash from './Splash';
 
 function App() {
-
   return (
     <>
       <NavigationBar />
