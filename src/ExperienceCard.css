@@ -1,0 +1,47 @@
+.experience-card-container{
+width: 90%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+font-family:  ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+padding: 5%;
+}
+
+@media only screen and (max-width: 960px) {
+    .experience-card-container{
+        width: 85%;
+    }
+    .card-body{
+        margin-left: 29% !important;
+    }
+    }
+
+.card-details{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+}
+
+.card-dates{
+    font-size: smaller;
+    color:  #4b4b4b;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.card-company-title{
+    font-weight: 500;
+    min-width: 80%;
+}
+
+.redirect-company{
+cursor: pointer;
+padding-left: 1%;
+}
+
+.seperator{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.card-body{
+    margin-left: 21%;
+}

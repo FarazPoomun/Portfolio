@@ -1,7 +1,9 @@
 .story-container{
-    width: 40%;
+    width: 35%;
     opacity: 0;
     transition: opacity 1s;
+    line-height: normal;
+    font-family:  ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @media only screen and (max-width: 960px) {
@@ -10,4 +12,5 @@
     margin-left: 3%;
     margin-right: 3%;
 }
+
 }

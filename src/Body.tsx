@@ -1,5 +1,5 @@
 import './Body.css'
-import Story from './Story';
+import RightBody from './RightBody';
 
 function Splash(){
 
@@ -34,7 +34,7 @@ function Splash(){
         </div>
           <div className="short-desc-text subtext">Senior Full-Stack Developer</div>
         </div>
-        <Story/>
+        <RightBody/>
         </div>
       </>
     );
