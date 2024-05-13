@@ -52,7 +52,7 @@ function NavigationBar() {
       <div className="navbar-container">
         <a
           href={CV}
-          download="MyExampleDoc"
+          download="CV"
           target="_blank"
           className="download-btn"
         >
