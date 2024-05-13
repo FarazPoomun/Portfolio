@@ -18,23 +18,23 @@
     margin-top: 15%;
 }
 
-.body-container-transitioned{
+/* .body-container-transitioned{
   margin-top: 5%;
   width: 20%;
   margin-left: 2%;
   position: sticky;
   top: 15%;
-} 
+}  */
 
 @media only screen and (max-width: 960px) {
   .greeting-text {
     margin-top: -25% !important;
   }
   .body-container{
-    margin-top: 90%;
+    margin-top: 80%;
   }
   .body-container-transitioned{
-    margin-top: 15%;
+    margin-top: 10%;
     width: 100% !important;
     position: unset;
   }
