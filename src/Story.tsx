@@ -4,7 +4,7 @@ import "./Story.css";
 function Story() {
   setTimeout(() => {
     const storyContainer = document.getElementById("story-container");
-    storyContainer!.style.opacity = "1";
+    storyContainer!.style.display = "block";
   }, 5500);
 
   return (
