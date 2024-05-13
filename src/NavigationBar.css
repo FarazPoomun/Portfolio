@@ -6,9 +6,12 @@
     margin-left: -1%;
 }
 
-.theme-switcher{
-    font-size: 1.5rem;
+.navbar-btn {
     cursor: pointer;
+}
+
+.download-btn{
+    padding-right: 1%;
 }
 
 @media only screen and (max-width: 960px) {
