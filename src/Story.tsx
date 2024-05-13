@@ -1,4 +1,4 @@
-import Experience from "./Experience";
+import ExperienceTimeline from "./ExperienceTimeline";
 import "./Story.css";
 
 function Story() {
@@ -47,7 +47,7 @@ function Story() {
           reading, hanging out with my wife and two cats, or running around
           Hyrule searching for Korok seeds
         </p>
-        <Experience />
+        <ExperienceTimeline />
       </div>
     </>
   );
