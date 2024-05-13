@@ -42,9 +42,25 @@ padding-left: 1%;
 }
 
 .card-languages{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
 }
 
 .padding-top-5{
     padding-top: 5%;
+}
+
+.blue-bg{
+    background-color: #1C64F2 !important;
+}
+
+.experience-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 4%;
+    transform: scale(1.1);
+}
+
+.padding-1{
+    padding: 1%;
 }
