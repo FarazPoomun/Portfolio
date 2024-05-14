@@ -1,12 +1,10 @@
 
 import { Link } from '@chakra-ui/react'
-import { useColorMode } from "@chakra-ui/react";
 import ExperienceTimeline from "./ExperienceTimeline";
 import "./Story.css";
+import Footer from './Footer';
 
 function Story() {
-
-  const {colorMode} = useColorMode();
 
   setTimeout(() => {
     const storyContainer = document.getElementById("story-container");
@@ -45,16 +43,11 @@ function Story() {
           When I’m not at the computer, I’m usually still at the screen,
           smashing the buttons on my controller and enjoying the best that the
           IT world has to provide which of course is Gaming (YES, I know PC is
-          superior!), or hanging out with my wife and our pets.
+          superior!), or hanging out with my wife-to-be and our pets.
         </p>
         <ExperienceTimeline />
 
-        <footer className= { colorMode ==='dark'? "rounded-lg shadow m-4 bg-gray-800": "bg-white rounded-lg shadow m-4"}>
-          <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-            Coded in Visual Studio Code by yours truly. Built with React + Vite,
-            Flowbite + TailwindCSS and Chakra UI for theme, deployed with GitHub.
-          </div>
-        </footer>
+       <Footer/>
       </div>
     </>
   );

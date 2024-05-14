@@ -42,19 +42,19 @@ function ExperienceTimeline() {
           <ExperienceTimelineItem experienceModel={experienceData[0]}>
             Build and maintain a future state architecture web application that
             is meant to replace a legacy system for the client. Experienced with
-            both the Backend and the Frontend aspect of the application
+            both the Backend and the Frontend aspect of the application as well as cloud services(Azure).
           </ExperienceTimelineItem>
 
           <ExperienceTimelineItem experienceModel={experienceData[1]}>
-            Build and maintain a future state architecture web application that
-            is meant to replace a legacy system for the client. Experienced with
-            both the Backend and the Frontend aspect of the application
+            Built and maintained features for one of the top HCM software globally. 
+            Groomed new joiners in terms of .Net expertise. 
+            Worked closely with developers to enforced design patterns and clean code standards.
           </ExperienceTimelineItem>
 
           <ExperienceTimelineItem experienceModel={experienceData[2]}>
-            Build and maintain a future state architecture web application that
-            is meant to replace a legacy system for the client. Experienced with
-            both the Backend and the Frontend aspect of the application
+          Using .NET framework, redesigned and refactored 
+          Dayforce's internal tool UI. Also underwent multiple 
+          training to improve soft skills and technical skills.
           </ExperienceTimelineItem>
         </ol>
       </div>
