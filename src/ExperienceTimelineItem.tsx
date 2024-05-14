@@ -3,6 +3,8 @@ import ExperienceModel from "./interfaces/Experience";
 import { faMinus, faLocationArrow } from "@fortawesome/free-solid-svg-icons";
 import { ReactNode, useRef, useState } from "react";
 import "./ExperienceTimeline.css";
+import { Link } from "@chakra-ui/react";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 interface ExperienceTimelineItemProp {
   experienceModel: ExperienceModel;
@@ -58,14 +60,11 @@ function ExperienceTimelineItem({
         <h3 className="text-lg font-semibold">
           {experienceModel.JobTitle}{" "}
           <FontAwesomeIcon icon={faMinus} className="seperator" />
-          {experienceModel.Company}
-          {displayRedirect && (
-            <FontAwesomeIcon
-              icon={faLocationArrow}
-              className="redirect-company"
-              onClick={() => redirect(experienceModel.CompanyUrl)}
-            />
-          )}
+          <Link href={experienceModel.CompanyUrl} isExternal>
+            {experienceModel.Company}
+            {displayRedirect && <ExternalLinkIcon mx="2px" />}
+          </Link>
+        
         </h3>
         <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
           {children}
