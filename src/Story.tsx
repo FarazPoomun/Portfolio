@@ -1,3 +1,5 @@
+
+import { Link } from '@chakra-ui/react'
 import { useColorMode } from "@chakra-ui/react";
 import ExperienceTimeline from "./ExperienceTimeline";
 import "./Story.css";
@@ -35,7 +37,8 @@ function Story() {
           of a software, I am a full stack developer, who tries to know the
           whole product from end to end including the frontend. So, in my free
           time, I do follow courses on new tech stack where needed from
-          Pluralsight or CodeWithMosh to keep up to date with both side of the
+         <Link href='https://www.pluralsight.com/' isExternal color='teal.400' fontWeight={500}> Pluralsight </Link>
+         or <Link href='https://codewithmosh.com/'isExternal color='teal.400' fontWeight={500}>CodeWithMosh</Link> to keep up to date with both side of the
           software.
           <br />
           <br />

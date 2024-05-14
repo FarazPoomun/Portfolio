@@ -1,9 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ExperienceModel from "./interfaces/Experience";
-import { faMinus, faLocationArrow } from "@fortawesome/free-solid-svg-icons";
+import { faMinus } from "@fortawesome/free-solid-svg-icons";
 import { ReactNode, useRef, useState } from "react";
 import "./ExperienceTimeline.css";
-import { Link } from "@chakra-ui/react";
+import { Link, useColorMode } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 interface ExperienceTimelineItemProp {
@@ -15,13 +15,11 @@ function ExperienceTimelineItem({
   experienceModel,
   children,
 }: ExperienceTimelineItemProp) {
+  const {colorMode} = useColorMode();
+
   const [displayRedirect, setDisplayRedirect] = useState<boolean>(false);
   const timelineNode = useRef<HTMLDivElement>(null);
   const wholeExperienceContainer = useRef<HTMLDivElement>(null);
-
-  const redirect = (companyUrl: string) => {
-    window.open(companyUrl, "_blank");
-  };
 
   const onExperienceHover = () => {
     setDisplayRedirect(true);
@@ -66,14 +64,14 @@ function ExperienceTimelineItem({
           </Link>
         
         </h3>
-        <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        <p className={colorMode === "light"? "mb-4 text-base font-normal text-gray-500": "mb-4 text-base font-normal text-gray-200"}>
           {children}
         </p>
         <div className="card-languages">
           {experienceModel.Languages.map((language) => (
             <span
               key={experienceModel.Company + language}
-              className="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300"
+              className="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900"
             >
               {language}
             </span>
