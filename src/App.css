@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap");
+@import url("https://rsms.me/inter/inter.css");
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
   font-size: 1rem;
   line-height: 1;
   width: 100%;

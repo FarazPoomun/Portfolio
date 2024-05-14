@@ -1,12 +1,13 @@
 import './App.css'
 import NavigationBar from './NavigationBar';
-import Splash from './Body';
+import Body from './Body';
 
 function App() {
   return (
     <>
       <NavigationBar />
-      <Splash />
+      <Body />
+
     </>
   );
 }

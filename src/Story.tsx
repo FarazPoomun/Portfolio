@@ -17,37 +17,37 @@ function Story() {
         </h2>
 
         <p>
-          Back in 2012, I decided to try my hand at creating custom Tumblr
-          themes and tumbled head first into the rabbit hole of coding and web
-          development. Fast-forward to today, and I’ve had the privilege of
-          building software for an advertising agency, a start-up, a huge
-          corporation, and a digital product studio. My main focus these days is
-          building accessible user interfaces for our customers at Klaviyo. I
-          most enjoy building software in the sweet spot where design and
-          engineering meet — things that look good but are also built well under
-          the hood. In my free time, I've also released an online video course
-          that covers everything you need to know to build a web app with the
-          Spotify API. When I’m not at the computer, I’m usually rock climbing,
-          reading, hanging out with my wife and two cats, or running around
-          Hyrule searching for Korok seeds
-        </p>
-        <br />
-        <p>
-          Back in 2012, I decided to try my hand at creating custom Tumblr
-          themes and tumbled head first into the rabbit hole of coding and web
-          development. Fast-forward to today, and I’ve had the privilege of
-          building software for an advertising agency, a start-up, a huge
-          corporation, and a digital product studio. My main focus these days is
-          building accessible user interfaces for our customers at Klaviyo. I
-          most enjoy building software in the sweet spot where design and
-          engineering meet — things that look good but are also built well under
-          the hood. In my free time, I've also released an online video course
-          that covers everything you need to know to build a web app with the
-          Spotify API. When I’m not at the computer, I’m usually rock climbing,
-          reading, hanging out with my wife and two cats, or running around
-          Hyrule searching for Korok seeds
+          Back in 2016, I stumbled into the rabbit hole of coding and web
+          development in University which immediately captivated me.
+          Fast-forward to today, and I’ve had the privilege of learning and
+          programming for some of the big names in the industry. I most enjoy
+          building software in the sweet spot where there is challenges and new
+          things to be learnt. I'm a huge fan of learning through sharing and
+          have been in multiple mentorship programs.
+          <br />
+          <br />
+          My main objective these days are to continously gain a grasp on newer
+          technologies. While i do prefer the challenging aspect of the backend
+          of a software, I am a full stack developer, who tries to know the
+          whole product from end to end including the frontend. So, in my free
+          time, I do follow courses on new tech stack where needed from
+          Pluralsight or CodeWithMosh to keep up to date with both side of the
+          software.
+          <br />
+          <br />
+          When I’m not at the computer, I’m usually still at the screen,
+          smashing the buttons on my controller and enjoying the best that the
+          IT world has to provide which of course is Gaming (YES, I know PC is
+          superior!), or hanging out with my wife and our pets.
         </p>
         <ExperienceTimeline />
+
+        <footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+          <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+            Coded in Visual Studio Code by yours truly. Built with React + Vite,
+            Flowbite and TailwindCSS, deployed with GitHub.
+          </div>
+        </footer>
       </div>
     </>
   );
