@@ -9,7 +9,15 @@ function ExperienceTimeline() {
       JobTitle: "Senior Full-Stack Developer",
       Company: "Objectivity (Part of Accenture)",
       CompanyUrl: "https://www.accenture.com/",
-      Languages: [".Net", "MongoDb", "Azure", "Docker", "React", "JS", "TS"],
+      Languages: [
+        ".Net",
+        "MongoDb",
+        "Service Bus",
+        "Docker",
+        "React",
+        "JS",
+        "TS",
+      ],
     },
     {
       From: 2020,
@@ -42,19 +50,21 @@ function ExperienceTimeline() {
           <ExperienceTimelineItem experienceModel={experienceData[0]}>
             Build and maintain a future state architecture web application that
             is meant to replace a legacy system for the client. Experienced with
-            both the Backend and the Frontend aspect of the application as well as cloud services(Azure).
+            both the Backend and the Frontend aspect of the application as well
+            as cloud services(Azure).
           </ExperienceTimelineItem>
 
           <ExperienceTimelineItem experienceModel={experienceData[1]}>
-            Built and maintained features for one of the top HCM software globally. 
-            Groomed new joiners in terms of .Net expertise. 
-            Worked closely with developers to enforced design patterns and clean code standards.
+            Built and maintained features for one of the top HCM software
+            globally. Groomed new joiners in terms of .Net expertise. Worked
+            closely with developers to enforced design patterns and clean code
+            standards.
           </ExperienceTimelineItem>
 
           <ExperienceTimelineItem experienceModel={experienceData[2]}>
-          Using .NET framework, redesigned and refactored 
-          Dayforce's internal tool UI. Also underwent multiple 
-          training to improve soft skills and technical skills.
+            Using .NET framework, redesigned and refactored Dayforce's internal
+            tool UI. Also underwent multiple training to improve soft skills and
+            technical skills.
           </ExperienceTimelineItem>
         </ol>
       </div>
